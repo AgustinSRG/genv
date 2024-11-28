@@ -1,6 +1,6 @@
-# Utility library to read environment variables (Go)
+# Utility library to read and parse environment variables (Go)
 
-This is a very single library to read environment variables and parse them to multiple types.
+This is a very simple library to read environment variables and parse them to multiple types.
 
 [Documentation](https://pkg.go.dev/github.com/AgustinSRG/genv)
 
@@ -14,7 +14,7 @@ go get https://github.com/AgustinSRG/genv
 
 ## Usage
 
-This library provides several functions that get environment variables and automatically parse them to different types. Ypu can also set defaultg values in case the variable is empty or missing.
+This library provides several functions that get environment variables and automatically parse them to different types. You can also set default values in case the variable is empty or missing.
 
 Here is en example usage
 
