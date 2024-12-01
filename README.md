@@ -9,7 +9,7 @@ This is a very simple library to read environment variables and parse them to mu
 To install the library in your project, run:
 
 ```sh
-go get https://github.com/AgustinSRG/genv
+go get github.com/AgustinSRG/genv
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ func main() {
     // you can use the alternative functions ending with "WithWarning"
     // They do the same, but also return a boolean flag, set to true
     // only if the value is set, but invalid
-    port, warning := GetEnvIntWithWarning("PORT", 80)
+    port, warning := genv.GetEnvIntWithWarning("PORT", 80)
     if warning {
         fmt.Println("[Warning] PORT has an invalid integer value, using the default value.")
     }
